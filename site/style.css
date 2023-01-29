@@ -1,0 +1,48 @@
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: left; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #000000; /* couleur de fond */
+    height: 36px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 20px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 23px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    }
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #f43c80; /* couleur de fond */
+    }
+    
+    
+    body{
+        background-image: url("image/imageroyaume.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    h1
+    {
+        text-align: center;
+        font-size: xx-large;
+        color: white;
+    }
+    section{
+        display: flexbox;
+        
+        height: 100px;
+        width: 1000px;
+        text-align: center;
+        padding: 100PX;
+
+    }
+    h1{
+        font-size: 50px;
+        font-family: serif;
+    }
+    p, h2{
+        color: white;
+        text-align: center;
+    }
+    
+   

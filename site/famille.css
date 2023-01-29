@@ -1,0 +1,47 @@
+body{
+    background-image: url("image/familleroyale.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+img{
+    height: 300px;
+    width: 350px;
+}
+.roi
+{
+    
+    margin: auto;
+    border-style: solid;
+    text-align: center;
+    color: white;
+}
+.reine{
+      
+    margin: auto;
+    border-style: solid;
+    text-align: center;
+    color: white;
+}
+.prince{
+    margin: auto;
+    border-style: solid;
+    text-align: center;
+    color: white;
+}
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: left; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #000000; /* couleur de fond */
+    height: 36px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 20px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 23px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    }
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #f43c80; /* couleur de fond */
+    }
